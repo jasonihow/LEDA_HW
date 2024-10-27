@@ -1,5 +1,1157 @@
 [
     {
+        "id": "afdcf13fc7858566",
+        "type": "tab",
+        "label": "流程2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a92fcbf0e6123839",
+        "type": "tab",
+        "label": "流程1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "006741bbc644dfdd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "test",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "YYYY/DD/MM",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 20,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "14ca84e7ee302559",
+        "type": "ui_tab",
+        "name": "首頁",
+        "icon": "apple",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3169fa0f91205f9a",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "14ca84e7ee302559",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f12160c52f97614e",
+        "type": "ui_tab",
+        "name": "報表",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8488681c238e9aec",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "f12160c52f97614e",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "8c942235528a4598",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "14ca84e7ee302559",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "9223ddbe211596e5",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "14ca84e7ee302559",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "51f1068994d06aaa",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "4deeb83ebaede617",
+        "order": 1,
+        "disp": true,
+        "width": "13",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ae5dd8c7e2c1aaa9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "6a7976607a897c15",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "4deeb83ebaede617",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "6a7976607a897c15",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "34c23c5e16978104",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": false,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "showPageTitle": true,
+        "navigationStyle": "default",
+        "titleBarStyle": "default"
+    },
+    {
+        "id": "223b723af43fb033",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "0d2de8c271623db6",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "34c23c5e16978104",
+        "path": "/home",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "223b723af43fb033",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "84e1f4c0d008fc77",
+        "type": "ui-group",
+        "name": "GET",
+        "page": "0d2de8c271623db6",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "8b2e18ec1f4cd518",
+        "type": "ui-page",
+        "name": "Page 2",
+        "ui": "34c23c5e16978104",
+        "path": "/login",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "223b723af43fb033",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "310d7133f52fabe4",
+        "type": "ui-group",
+        "name": "ADD",
+        "page": "0d2de8c271623db6",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a51ed5016e89b57c",
+        "type": "ui-group",
+        "name": "UPDATE",
+        "page": "0d2de8c271623db6",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "1f4d8229e82af649",
+        "type": "ui-group",
+        "name": "DELETE",
+        "page": "0d2de8c271623db6",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5e3fb7cb8387f975",
+        "type": "ui-group",
+        "name": "My Group",
+        "page": "8b2e18ec1f4cd518",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "554d22f14f5073f4",
+        "type": "ui-page",
+        "name": "Page 3",
+        "ui": "34c23c5e16978104",
+        "path": "/page3",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "223b723af43fb033",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "80a014687d8a05f9",
+        "type": "ui-group",
+        "name": "My Group",
+        "page": "554d22f14f5073f4",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c8d846acc026920c",
+        "type": "ui-link",
+        "name": "Link",
+        "path": "/",
+        "icon": "home",
+        "order": 1,
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "49afae8460698805",
+        "type": "ui-table",
+        "z": "afdcf13fc7858566",
+        "group": "84e1f4c0d008fc77",
+        "name": "",
+        "label": "text",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 970,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7198d3bd81e0c726",
+        "type": "http request",
+        "z": "afdcf13fc7858566",
+        "name": "get list",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "localhost:8008/api/todo/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "39d05ec46ad98fca"
+            ]
+        ]
+    },
+    {
+        "id": "61f2846ca9c0eafb",
+        "type": "http request",
+        "z": "afdcf13fc7858566",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "localhost:8008/api/todo/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": ""
+            }
+        ],
+        "x": 940,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eaf6163e73720efd",
+        "type": "http request",
+        "z": "afdcf13fc7858566",
+        "name": "Delete",
+        "method": "DELETE",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1010,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39d05ec46ad98fca",
+        "type": "json",
+        "z": "afdcf13fc7858566",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "2b2b95d1c9f5131f"
+            ]
+        ]
+    },
+    {
+        "id": "c0a3c9b88158740f",
+        "type": "ui-text-input",
+        "z": "afdcf13fc7858566",
+        "group": "310d7133f52fabe4",
+        "name": "add_task",
+        "label": "task name",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "task",
+        "topicType": "str",
+        "mode": "text",
+        "tooltip": "task name",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "0715ed886b2aecc1"
+            ]
+        ]
+    },
+    {
+        "id": "5d7d0fbcf824c575",
+        "type": "ui-button",
+        "z": "afdcf13fc7858566",
+        "group": "84e1f4c0d008fc77",
+        "name": "get_list",
+        "label": "GET TODOS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "7198d3bd81e0c726"
+            ]
+        ]
+    },
+    {
+        "id": "3ec410dad4eec9f2",
+        "type": "ui-switch",
+        "z": "afdcf13fc7858566",
+        "name": "add_status",
+        "label": "done?",
+        "group": "310d7133f52fabe4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": false,
+        "topic": "done",
+        "topicType": "str",
+        "style": "",
+        "className": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "a41da8425da69c32"
+            ]
+        ]
+    },
+    {
+        "id": "54c3752e0da9c4e0",
+        "type": "ui-switch",
+        "z": "afdcf13fc7858566",
+        "name": "update_status",
+        "label": "done?",
+        "group": "a51ed5016e89b57c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": false,
+        "topic": "done",
+        "topicType": "str",
+        "style": "",
+        "className": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 180,
+        "y": 740,
+        "wires": [
+            [
+                "7c188384859bcb9c"
+            ]
+        ]
+    },
+    {
+        "id": "6d8061dcb771c296",
+        "type": "ui-text-input",
+        "z": "afdcf13fc7858566",
+        "group": "a51ed5016e89b57c",
+        "name": "update_task",
+        "label": "task name",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "topic": "task",
+        "topicType": "str",
+        "mode": "text",
+        "tooltip": "task name",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 170,
+        "y": 700,
+        "wires": [
+            [
+                "893ac911b41dc5d6"
+            ]
+        ]
+    },
+    {
+        "id": "caef38e1fb5e2964",
+        "type": "ui-text-input",
+        "z": "afdcf13fc7858566",
+        "group": "1f4d8229e82af649",
+        "name": "delete_id",
+        "label": "delete id",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "id",
+        "topicType": "str",
+        "mode": "text",
+        "tooltip": "id",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 180,
+        "y": 820,
+        "wires": [
+            [
+                "b58cd537e44f13aa"
+            ]
+        ]
+    },
+    {
+        "id": "0715ed886b2aecc1",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 10",
+        "func": "global.set(\"add_task\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a41da8425da69c32",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 11",
+        "func": "global.set(\"add_done\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "893ac911b41dc5d6",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 12",
+        "func": "global.set(\"update_task\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c188384859bcb9c",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 13",
+        "func": "global.set(\"update_done\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b58cd537e44f13aa",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 14",
+        "func": "global.set(\"delete_id\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "984788dbeabf7848",
+        "type": "ui-button",
+        "z": "afdcf13fc7858566",
+        "group": "310d7133f52fabe4",
+        "name": "",
+        "label": "ADD",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "556267e851332e9b"
+            ]
+        ]
+    },
+    {
+        "id": "556267e851332e9b",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 15",
+        "func": "let add = {\n    Task: global.get(\"add_task\"),\n    Done: global.get(\"add_done\")\n}\nmsg.payload = add\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "61f2846ca9c0eafb"
+            ]
+        ]
+    },
+    {
+        "id": "ed4ed7a19ea99d78",
+        "type": "ui-button",
+        "z": "afdcf13fc7858566",
+        "group": "a51ed5016e89b57c",
+        "name": "",
+        "label": "UPDATE",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 560,
+        "y": 700,
+        "wires": [
+            [
+                "ae7021467cb13858"
+            ]
+        ]
+    },
+    {
+        "id": "ae7021467cb13858",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 16",
+        "func": "let update = {\n    Task: global.get(\"update_task\"),\n    Done: global.get(\"update_done\")\n}\n\nlet id = global.get(\"update_id\")\n\nmsg.payload = update\nmsg.url = `localhost:8008/api/todo/${id}`;\nreturn msg;\n\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 700,
+        "wires": [
+            [
+                "24fd7770c7d3ab4f"
+            ]
+        ]
+    },
+    {
+        "id": "728bc41c3ca12d92",
+        "type": "ui-button",
+        "z": "afdcf13fc7858566",
+        "group": "1f4d8229e82af649",
+        "name": "",
+        "label": "DELETE",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 560,
+        "y": 820,
+        "wires": [
+            [
+                "e0d4b347dc7e25ab"
+            ]
+        ]
+    },
+    {
+        "id": "e0d4b347dc7e25ab",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 17",
+        "func": "let id = global.get(\"delete_id\")\nmsg.url = `localhost:8008/api/todo/${id}`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 820,
+        "wires": [
+            [
+                "eaf6163e73720efd"
+            ]
+        ]
+    },
+    {
+        "id": "24fd7770c7d3ab4f",
+        "type": "http request",
+        "z": "afdcf13fc7858566",
+        "name": "Update",
+        "method": "PUT",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1020,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68d7318a4c82fda0",
+        "type": "ui-text-input",
+        "z": "afdcf13fc7858566",
+        "group": "a51ed5016e89b57c",
+        "name": "update_id",
+        "label": "id",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "id",
+        "topicType": "str",
+        "mode": "text",
+        "tooltip": "id",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 160,
+        "y": 660,
+        "wires": [
+            [
+                "0c7e1b5fe39758dc"
+            ]
+        ]
+    },
+    {
+        "id": "0c7e1b5fe39758dc",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 18",
+        "func": "global.set(\"update_id\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4afe15fb06bfdf20",
+        "type": "http request",
+        "z": "afdcf13fc7858566",
+        "name": "Delete",
+        "method": "DELETE",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "localhost:8008/api/todo/clear",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 730,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7230d4fd62970c10",
+        "type": "ui-button",
+        "z": "afdcf13fc7858566",
+        "group": "1f4d8229e82af649",
+        "name": "",
+        "label": "DELETE ALL",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 570,
+        "y": 980,
+        "wires": [
+            [
+                "4afe15fb06bfdf20"
+            ]
+        ]
+    },
+    {
+        "id": "2b2b95d1c9f5131f",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 19",
+        "func": "msg.payload = msg.payload.todos\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 500,
+        "wires": [
+            [
+                "49afae8460698805"
+            ]
+        ]
+    },
+    {
+        "id": "3fe998191643f3a7",
+        "type": "ui-control",
+        "z": "afdcf13fc7858566",
+        "name": "",
+        "ui": "34c23c5e16978104",
+        "events": "all",
+        "x": 780,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "757552cbdcb3720f",
         "type": "function",
         "z": "afdcf13fc7858566",
@@ -16,6 +1168,490 @@
         "wires": [
             [
                 "3fe998191643f3a7"
+            ]
+        ]
+    },
+    {
+        "id": "29d14cef5f8df8c3",
+        "type": "ui-text-input",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "username",
+        "label": "username",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "username",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "844d92849ff57fd5"
+            ]
+        ]
+    },
+    {
+        "id": "b85c8e0955473073",
+        "type": "ui-button",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "",
+        "label": "button",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "button",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "cea718c3adb49856"
+            ]
+        ]
+    },
+    {
+        "id": "c85dd2450c9d0d52",
+        "type": "debug",
+        "z": "a92fcbf0e6123839",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "844d92849ff57fd5",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 5",
+        "func": "global.set('username', msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d568814b1c214061",
+        "type": "ui-text-input",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "password",
+        "label": "password",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "password",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "89b204b5126bf0bf"
+            ]
+        ]
+    },
+    {
+        "id": "6be9d2ebb93f4d93",
+        "type": "ui-text-input",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "role",
+        "label": "role",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "role",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "adb14fc4fd47c34e"
+            ]
+        ]
+    },
+    {
+        "id": "89b204b5126bf0bf",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 6",
+        "func": "global.set('password', msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adb14fc4fd47c34e",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 7",
+        "func": "global.set('role', msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0aaabdb3dfae216b",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 8",
+        "func": "global.set('remember', msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cea718c3adb49856",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 9",
+        "func": "let loginform = {\n    username: global.get('username'),\n    password: global.get('password'),\n    role: global.get('role'),\n    remember: global.get('remember')\n}\nmsg.payload = loginform\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "d9dcec2ecce7e2f3",
+                "c85dd2450c9d0d52"
+            ]
+        ]
+    },
+    {
+        "id": "6c2a5a732e1e4960",
+        "type": "ui-switch",
+        "z": "a92fcbf0e6123839",
+        "name": "remember?",
+        "label": "remember?",
+        "group": "5e3fb7cb8387f975",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "0aaabdb3dfae216b"
+            ]
+        ]
+    },
+    {
+        "id": "d9dcec2ecce7e2f3",
+        "type": "ui-table",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "",
+        "label": "text",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "append",
+        "x": 630,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18f80d439210f536",
+        "type": "ui-form",
+        "z": "a92fcbf0e6123839",
+        "name": "使用者資料",
+        "group": "5e3fb7cb8387f975",
+        "label": "使用者資料",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "名稱",
+                "key": "name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "密碼",
+                "key": "password",
+                "type": "password",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "name": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 730,
+        "y": 200,
+        "wires": [
+            [
+                "1ae22c2c669288d9",
+                "bb6e5eb6ebb19bbf"
+            ]
+        ]
+    },
+    {
+        "id": "bb6e5eb6ebb19bbf",
+        "type": "debug",
+        "z": "a92fcbf0e6123839",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4e9e62b9c5ca0d84",
+        "type": "ui-file-input",
+        "z": "a92fcbf0e6123839",
+        "group": "5e3fb7cb8387f975",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "label": "File Input",
+        "icon": "paperclip",
+        "allowMultiple": false,
+        "accept": "image/jpeg",
+        "className": "",
+        "x": 700,
+        "y": 100,
+        "wires": [
+            [
+                "cad986c15189c316"
+            ]
+        ]
+    },
+    {
+        "id": "cad986c15189c316",
+        "type": "image viewer",
+        "z": "a92fcbf0e6123839",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 890,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dddc36377cc139e3",
+        "type": "debug",
+        "z": "a92fcbf0e6123839",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "file",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5aed00b7d43f3d80",
+        "type": "ui-event",
+        "z": "a92fcbf0e6123839",
+        "ui": "34c23c5e16978104",
+        "name": "",
+        "x": 950,
+        "y": 420,
+        "wires": [
+            [
+                "943e7ba61973e0c0"
+            ]
+        ]
+    },
+    {
+        "id": "943e7ba61973e0c0",
+        "type": "debug",
+        "z": "a92fcbf0e6123839",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7f6543e0212dd4eb",
+        "type": "ui-control",
+        "z": "a92fcbf0e6123839",
+        "name": "",
+        "ui": "34c23c5e16978104",
+        "events": "all",
+        "x": 1180,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ae22c2c669288d9",
+        "type": "function",
+        "z": "a92fcbf0e6123839",
+        "name": "function 21",
+        "func": "global.set(\"login\", false)\n\nmsg.payload = {\n    url: 'http://127.0.0.1:1880/dashboard/home?username='+msg.payload.name\n}\nif (msg.payload.name != \"\") {\n    global.set(\"add_done\", true)\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 300,
+        "wires": [
+            [
+                "7f6543e0212dd4eb"
             ]
         ]
     }
