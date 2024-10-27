@@ -1,0 +1,22 @@
+[
+    {
+        "id": "757552cbdcb3720f",
+        "type": "function",
+        "z": "afdcf13fc7858566",
+        "name": "function 22",
+        "func": "if (global.get(\"login\") == false){\n    msg.payload = {\n    url: 'http://127.0.0.1:1880/dashboard/login'\n    }\n} \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 360,
+        "wires": [
+            [
+                "3fe998191643f3a7"
+            ]
+        ]
+    }
+]
