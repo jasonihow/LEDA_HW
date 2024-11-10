@@ -1,12 +1,14 @@
 package todo
 
 import (
+	"context"
 	"encoding/json"
 	"net/http"
 	"os"
 	"sync"
 
 	"github.com/gin-gonic/gin"
+	"github.com/redis/go-redis/v9"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
@@ -90,8 +92,31 @@ func Api_hw(port string) {
 	todo.GET("/complete", listCompletedTODOs)
 	todo.GET("/uncomplete", listUncompletedTODOs)
 	todo.DELETE("/clear", clearTODOs)
+	todo.POST("/queue", addTodoQueue)
 
 	r.Run(":" + port)
+}
+
+func addTodoQueue(c *gin.Context) {
+	var todo TODO
+
+	if err := c.ShouldBindJSON(&todo); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error_code": 4001, "message": err.Error()})
+		return
+	}
+	redisCient := redis.NewClient(&redis.Options{
+		Addr: "localhost:6379",
+	})
+
+	b, err := json.Marshal(todo)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error_code": 5001, "message": err.Error()})
+	}
+	err = redisCient.LPush(context.Background(), "queue", b).Err()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error_code": 5001, "message": err.Error()})
+	}
+	c.JSON(http.StatusOK, gin.H{"message": "Task added to queue successfully"})
 }
 
 // Create new TODO
